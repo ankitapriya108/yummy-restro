@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    height: 100px;
+}
+.navbar-brand h1{
+    font-size: 29px;
+    font-weight: 700;
+}
+.navbar-brand span{
+color: red;
+}
+.items {
+    margin-left: 150px;
+    font-size: 18px;
+}
+.items li.nav-item {
+    padding: 0 8px;
+}
+
+.btn button {
+    border-radius: 20px;
+    background-color: red;
+    height: 40px;
+    width: 130px;
+    border: 0;
+    margin-left: 60px;
+}
+.btn button a{
+   text-decoration: none;
+    color:white;
+}
+.items ul li:hover{
+    text-decoration: underline red;
+}
+.box{
+    height: 670px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+.image{
+    height: 500px;
+    width: 500px;
+}
+.image img{
+    height: auto;
+    object-fit: cover;
+}
+.both{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    margin-right: 300px;
+}
+.image {
+    margin-top: 100px;
+}
+.text button {
+    border-radius: 20px;
+    background-color: red;
+    height: 40px;
+    width: 130px;
+    border: 0;
+    margin-top: 15px;
+}
+.text button a{
+    text-decoration: none;
+     color:white;
+ }
+ .text h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+ }
+ .text p{
+    font-size: 16px;
+    padding-top: 10px;
+ }
+ .text{
+    position: relative;
+ }
+ i.fa-regular.fa-circle-play {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 260px;
+    right: 245px;
+ }
+ .text h5{
+    bottom: 5px;
+    position: absolute;
+    left: bottom;
+    left: 230px;
+ }
+ .aboutus p{
+text-align: center;
+ }
+ .aboutus h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: var(--font-primary);
+ }
+ .aboutus h2 span{
+    color: red;
+ }
+ 
+ .para p {
+    text-align: left !important;
+}
+.food{
+    width: 700px;
+    height: 715px;
+    background-image: url(about.jpg);
+    background-repeat: no-repeat !important;
+}
+
+.img_two{
+    height: 396px;
+    width: 545px;
+}
+.img_two img{
+    height: 100%;
+    object-fit: cover;
+}
+.box_two{
+    height: 550px;
+    width: 100%;
+    background-color: #eeeeee;
+    margin-top: 50px;
+}
+.bx_one{
+    color: white;
+    height: 480px;
+    width: 425px;
+    padding: 20px;
+    background-color: red;
+    margin-top: 20px;
+}
+.bx_one h1{
+    padding-top: 30px;
+}
+.bx_one p{
+    padding-top: 30px;
+    font-size: 17px;
+}
+.bx_one button{
+    height: 35px;
+    width: 140px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.49);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 125px;
+    color: white;
+}
+.bx_two{
+    height: 320px;
+    width: 280px;
+    background-color: white;
+    margin-top: 125px;
+    text-align: center;
+   padding-top: 20px;
+
+}
+i.fa-regular.fa-clipboard {
+    font-size: 37px;
+    color: darkred;
+}
+
+
+i.fa-regular.fa-gem {
+    font-size: 37px;
+    color: darkred;
+}
+i.fa-solid.fa-inbox {
+    font-size: 37px;
+    color: darkred;
+}
+.bx_two h4{
+    padding-top: 30px;
+}
+.bx_two p{
+    padding-top: 20px;
+}
+.back{
+    height: 300px;
+    width: 100%;
+    background-image: url(stats-bg.jpg);
+}
+.trans{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.619);
+}
+.no{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.ourmenu{
+    text-align: center;
+    padding-top: 20px;
+}
+.ourmenu h1{
+    font-family: var(--font-primary);
+}
+.ourmenu h1 span{
+    color: red;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.list ul li{
+    font-size: 20px;
+    padding: 15px;
+
+}
+.list ul li a{
+    color: black;
+}
+.ourmenu h2{
+    color: red;
+}
+.foodie{
+    height: 300px;
+    
+}
+.foodie img{
+    height: 100%;
+    object-fit: cover;
+}
+.foodbox h3{
+    padding-top: 40px;
+}
+
+.foodbox h4{
+    color: red;
+}
+.testimonials{
+    height: 600px;
+    width: 100%;
+    background-color: #eeeeee;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.testimonials h1 {
+    font-family: var(--font-primary);
+}
+.testimonials h1 span{
+    color: red;
+}
+.events{
+    text-align: center;
+}
+.events h1{
+    font-family: var(--font-primary);
+}
+.events h1 span{
+    color: red;
+}
+.restroimg{
+   
+    background-image: url(events-1.jpg);
+}
+.restroimg_one{
+   
+    background-image: url(events-2.jpg);
+}
+.restroimg_two{
+   
+    background-image: url(events-3.jpg);
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.503);
+    color: white;
+    text-align: left;
+    padding: 30px ;
+}
+.blur h2{
+    padding-top: 435px;
+}
+.chefs{
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    background-color:#eeeeee;
+    margin-top: 40px;
+    padding: 30px;
+}
+.chefs h1{
+    font-family: var(--font-primary); 
+}
+.chefs h1 span{
+    color: red;
+}
+.table{
+    text-align: center;
+    margin-top: 30px;
+}
+.table h1 {
+    font-family: var(--font-primary);  
+}
+.table h1 span {
+    color: red;
+}
+.photo{
+    height: 500px;
+    width:450px ;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.roundimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.roundimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+i.fa-solid.fa-star {
+    color: goldenrod;
+}
+.para_one {
+    height: 200px;
+    width: 500px;
+    text-align: left!important;
+    margin-right: 100px;
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 145px;
+    
+}
+/* .box{
+    height: 500px;
+    width: 700px;
+    background-color: #eeeeee;
+} */
+.map iframe{
+    height: 400px;
+    width: 100%;
+}
+
+
